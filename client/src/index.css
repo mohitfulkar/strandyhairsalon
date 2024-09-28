@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.normal-text{
+    font-size: 1rem;
+}
+.card{
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 250px;
+}
+
+.input {
+    padding: 8px;
+}
+.input:hover, input:focus {
+    border: 1px solid #378CE7;
+}
+.input::selection {
+    border: 2px solid #378CE7;
+}
+
+.label {
+    font-weight: 500;
+}
+
+.ant-form-item {
+    margin: 10px 0;
+}
+
+.primary-but {
+    background-color: #378CE7;
+    border-color: #67C6E3;
+    color: black;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 1;
+    font-weight: 500;
+}
+.primary-but:hover{
+    background-color: #67C6E3 !important;
+    color: black !important;
+    border: none;
+}
+
+.anch {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.anch:hover {
+    text-decoration: underline;
+    color: black;
+}
+.log {
+    font-weight: 500;
+}
+
+/* auth pages */
+.authentication {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #378CE7;
+}
+
+.auth-container {
+    width: 400px;
+}
+
+.spinner {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #378CE7;
+}
+
+.form-btn {
+    width: 250px;
+    align-self: center;
+}
+
+.aptitle {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.card-header {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.delbut {
+    font-size: medium;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.markbut {
+    font-size: medium;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+.ant-tabs-nav {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.apcard {
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-size: large;
+    background-color: azure;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.hcard {
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 8px;
+    width: 250px;
+    background-color: azure;
+    border: 1px solid;
+}
+
+.hcard-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #67C6E3;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.ptitle {
+    margin: 10px;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.inptitle {
+    margin: 4px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.container {
+    padding: 8px;
+    margin-left: 10px;
+}
